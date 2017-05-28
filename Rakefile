@@ -1,13 +1,13 @@
 task :default do
   build_mod
-  deploy_app_locally
+  deploy_mod_locally
 end
 
 def build_mod
   system 'webpack'
 end
 
-def deploy_app_locally
+def deploy_mod_locally
   src_dir = Dir.pwd
   Dir.chdir directory_to_store_mod do
     make_dir('agile')
