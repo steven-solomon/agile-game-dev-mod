@@ -1,4 +1,4 @@
-const Iteration = require('../src/iteration');
+const Iteration = require('../../src/domain/iteration');
 
 describe('iteration', function() {
   it('needs ui parameter', function() {

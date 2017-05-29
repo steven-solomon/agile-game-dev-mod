@@ -23,7 +23,9 @@ class Iteration {
 
   weekPasses() {
     this._weeksPassed++;
+    console.log("iteration continues", this._weeksPassed);
     if (this._weeksPassed === this._weeks) {
+      console.log("iteration over");
       this._ui.iterationEnded();
       this._weeksPassed = 0;
     }

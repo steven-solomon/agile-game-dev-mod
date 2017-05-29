@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "gdt-modAPI": "git+https://github.com/steven-solomon/gdt-modAPI.git"
+    "gdt-modAPI": "git+https://github.com/steven-solomon/gdt-modAPI.git",
+    "nw": "^0.22.3",
+    "nwjs": "^1.4.3"
   },
   "window": {
     "toolbar": true
